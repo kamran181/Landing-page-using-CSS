@@ -1,0 +1,185 @@
+/* element selectors */
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #080806;
+    padding-right: 4rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1.5rem 0.5rem;
+    margin: 0 1.5rem
+  
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 5px solid transparent;
+    padding-top: 1.5rem ;
+    padding-bottom: 1rem;
+   
+    
+
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    transition: .5s;
+    color: #000;
+    background-color: plum;
+
+
+}
+
+h3 {
+    color: #fff;
+    width: 25%;
+    padding-top: 0.5rem;
+    font-size: x-large;
+    background-color: #000;
+    padding-left: 6rem;
+}
+
+h3:hover{
+    color: grey;
+    ;
+}
+
+span {
+    color: grey;
+}
+
+footer{
+    text-align: center;
+    font-size:xx-large;
+    padding: 2%;
+    background-color: #080806;
+    padding-bottom: 5.7%;
+    width: 39%;
+    height: 38px;
+    
+    
+}
+/* class selectors */
+.content {
+    display: flex;
+    background-color: #080806;
+
+}
+
+.mypic {
+    height: 500px;
+    width: 40%;
+
+}
+
+.text {
+    text-align: center;
+    position: relative;
+}
+
+.heading-text {
+    position: absolute;
+    font-size: 4.8rem;
+    text-align: left;
+    width: 80%;
+    top: 80px;
+    right: 250px;
+    color: #fff;
+    line-height: 1;
+
+}
+
+.heading-paragraph {
+    font-size: large;
+    position: relative;
+    width: 80%;
+    top: 63%;
+    right: 55px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+
+}
+
+.btn {
+    position: absolute;
+    top: 85%;
+    right: 50%;
+    padding: 12px 20px;
+    color: #000;
+    font-size: 15px;
+    background-color: #fff;
+    border: 5px solid transparent;
+    border-radius: 40px;
+    font-weight:bold;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: .5s;
+    background-color: grey;
+    /* font-size: 18px; */
+    color: #fff;
+}
+.brand{
+    padding: 0 1rem;
+}
+.awesome-fonts{
+    background-color:transparent;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    left: 350px;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+.facebook{
+    background-color: transparent;
+    
+}
+.facebook:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+    color: plum
+
+ }
+
+
+.twitter{
+    background-color: transparent;
+    
+}
+.twitter:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+    color: plum
+}
+
+.instagram{
+    background-color: transparent;
+  
+}
+.instagram:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: transparent;
+    color: plum
+}
+.top-one{
+    background-color: #000;
+}
